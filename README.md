@@ -1,9 +1,10 @@
 # Object-Oriented-Programming
-This is a repository of different exercises of Object-Oriented programming (OOP) in Python and other code languages. 
+This is a repository of different practices of Object-Oriented programming (OOP) in Python.
 
-## Object = attibutes + methods
-attribute <-> variables <-> obj.my_attribute,
-method <-> function() <-> obj.my_method().
-
-dir() --> list all attibutes and methods
-
+## Notes
+<ul> 
+<li>Object = attibutes + methods</li>
+<li>attribute <-> variables <-> obj.my_attribute</li>
+<li>method <-> function() <-> obj.my_method().</li>
+<li>dir() --> list all attibutes and methods.</li>
+</ul>
