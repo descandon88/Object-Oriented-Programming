@@ -18,3 +18,10 @@ This is a repository of different practices of Object-Oriented programming (OOP)
 <li> constructor: __init__</li>
 
 </ul>
+
+### Core Principles of OOP
+<ul>
+<li>Inheritance: Extending functionality of existing code</li>
+<li>Polymorphism:</li>
+<li>Encapsulation:</li>
+</ul>
