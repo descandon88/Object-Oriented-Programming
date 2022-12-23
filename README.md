@@ -2,6 +2,9 @@
 Repositorio de ejercicios y teoría sobre Programación Orientada Objetos (OOP) en Python
 
 # Notas
+## Paradigma
+1. Objetos que colaboran entre si, enviándose mensajes.
+2. Todo es un objeto. 
 
 ## Clases y objetos
 1. Una clase es una entidad que define una serie de elementos que determinan un estado (datos) y un comportamiento (operaciones sobre los datos que modifican su estado).
