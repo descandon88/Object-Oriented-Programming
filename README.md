@@ -1,13 +1,15 @@
-# Object-Oriented-Programming
-This is a repository of different practices of Object-Oriented programming (OOP) in Python.
+# Programación Orientada a Objetos
+Repositorio de ejercicios y teoría sobre Programación Orientada Objetos (OOP) en Python
 
-## Notes
-<ul> 
-<li>Object = attibutes + methods</li>
-<li>attribute <-> variables <-> obj.my_attribute</li>
-<li>method <-> function() <-> obj.my_method()</li>
-<li>dir() --> list all attibutes and methods.</li>
-</ul>
+# Notas
+
+## Clases y objetos
+1. Una clase es una entidad que define una serie de elementos que determinan un estado (datos) y un comportamiento (operaciones sobre los datos que modifican su estado).
+2. Un objeto es una concreción o instancia de una clase. "Objecto = Atributos + Métodos"
+
+## Constructor de una clase
+Existen clases que deben o necesitan crear instancias de objetos con un estado inicial. <br>
+Esto se consigue implementando el método especial __init__(). Este método es conocido como el constructor de la clase y se invoca cada vez que se instancia un nuevo objeto.<br>
 
 ### Methods and Attributes
 <ul> 
