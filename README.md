@@ -10,6 +10,7 @@ Repositorio de ejercicios y teoría sobre Programación Orientada Objetos (OOP) 
 ## Constructor de una clase
 Existen clases que deben o necesitan crear instancias de objetos con un estado inicial. <br>
 Esto se consigue implementando el método especial '__init__()'. Este método es conocido como el constructor de la clase y se invoca cada vez que se instancia un nuevo objeto.<br>
+<p>En términos generales, el constructor crea el estado inicial del objeto con el conjunto mínimo de parámetros que necesita para existir.</p>
 
 ## Atributos, atributos de datos y métodos
 Los métodos son funciones definidas dentro de una Clase<br>
