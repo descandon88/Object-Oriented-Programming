@@ -21,9 +21,12 @@ Los métodos son funciones definidas dentro de una Clase<br>
 Los atributos se definen por asignación<br>
 Los atributos se refieren en una clase a través del "self.___"<br>
 
-### Core Principles of OOP
+### Terminología 
 <ul>
-<li>Inheritance: Extending functionality of existing code</li>
-<li>Polymorphism:</li>
-<li>Encapsulation:</li>
+<li>Clase: Define las características del Objeto</li>
+<li>Objeto: Una instancia de una Clase</li>
+<li>Propiedad: Una característica del Objeto, como el color</li>
+<li>Método: Una capacidad del Objeto, como caminar</li>
+<li>Constructor: es un método llamado en el momento de la creación de instancias </li>
+
 </ul>
