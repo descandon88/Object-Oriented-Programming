@@ -6,6 +6,14 @@ Repositorio de ejercicios y teoría sobre Programación Orientada Objetos (OOP) 
 1. Objetos que colaboran entre si, enviándose mensajes.
 2. Todo es un objeto. 
 
+## Pilares de POO 
+<ul>
+<li>Abstracción: elimina los detalles innecesarios para solo nos enfocamos en los aspectos que son necesarios para el contexto o sistema que estamos desarrollando. Se centra en los detalles necesarios</li>
+<li>Encapsulamiento</li>
+<li>Herencia</li>
+<li>Polimorfismo</li>
+</ul>
+
 ## Clases y objetos
 1. Una clase es una entidad que define una serie de elementos que determinan un estado (datos) y un comportamiento (operaciones sobre los datos que modifican su estado).
 2. Un objeto es una concreción o instancia de una clase. "Objecto = Atributos + Métodos"
@@ -21,7 +29,7 @@ Los métodos son funciones definidas dentro de una Clase<br>
 Los atributos se definen por asignación<br>
 Los atributos se refieren en una clase a través del "self.___"<br>
 
-### Terminología 
+## Terminología 
 <ul>
 <li>Clase: Define las características del Objeto</li>
 <li>Objeto: Una instancia de una Clase</li>
