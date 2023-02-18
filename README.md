@@ -8,10 +8,10 @@ Repositorio de ejercicios y teoría sobre Programación Orientada Objetos (OOP) 
 
 ## Pilares de POO 
 <ul>
-<li>Abstracción: elimina los detalles innecesarios para solo nos enfocamos en los aspectos que son necesarios para el contexto o sistema que estamos desarrollando. Se centra en los detalles necesarios</li>
-<li>Encapsulamiento</li>
-<li>Herencia</li>
-<li>Polimorfismo</li>
+    <li>Abstracción: elimina los detalles innecesarios para que solo nos enfoquemos en los aspectos que son necesarios para el contexto o sistema que estamos desarrollando. Se centra en los detalles necesarios</li>
+    <li>Encapsulamiento:</li>
+    <li>Herencia:</li>
+    <li>Polimorfismo:</li>
 </ul>
 
 ## Clases y objetos

@@ -15,7 +15,7 @@
 //     }
 // }
 
-const private = new WeakMap();
+const _private = new WeakMap();
 class Book {
 
     constructor(titulo, autor, precio) {
