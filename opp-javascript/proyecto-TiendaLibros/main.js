@@ -22,7 +22,7 @@ class Book {
        const properties = {
          _titulo : titulo,
          _autor: autor,
-         _price : precio
+         _precio : precio
        }
 
 
@@ -38,13 +38,27 @@ class Book {
         return _private.get(this).properties['_titulo']=nuevoTitulo;
 
     }
+
+    get precio() {
+        return _private.get(this).properties['_precio'];
+    }
+    // setea/ modifica el precio de un libro: 
+    set precio(nuevoPrecio) {
+        return _private.get(this).properties['_precio']=nuevoPrecio;
+
+    }
+
+
 }
 
 class Comic extends Book {
-    constructor(pepe, autor, price, ilustradores, personajes){
-        super(pepe,autor,price);
+    constructor(titulo, autor, precio, ilustradores, personajes){
+        super(titulo,autor,precio);
         this.ilustradores = ilustradores;
         this.personajes=personajes;
+    }
+    addIllustrator(newIllustrator = []){
+        this.ilustradores.push(newIllustrator)
     }
 }
 
@@ -53,21 +67,54 @@ class Comic extends Book {
 // Instancia de Book: 
 const libro01 = new Book("Los Tres Mosqueteros", "Alejandro Dumas", 320);
 const libro02 = new Book("Frankenstain", "G.O.", 350);
-const comic01 = new Comic("The Killing Joke", 'A.M.',150,['Brian Bolland','John Higgins'],['El Guasón','Batman', 'Barbara Gordon','Red Hood'])
+const comic01 = new Comic("The Killing Joke", 'A.M.',150,['Brian Bolland'],['El Guasón','Batman', 'Barbara Gordon','Red Hood'])
 
 console.log(libro01);
-console.log('con el private.get: '+libro01.title);
+console.log('con el private.get: '+libro01.titulo);
 console.log(libro02.autor);
 
 console.log(comic01);
 
 console.log(comic01.titulo);
-console.log(comic01.price);
+console.log('precio: '+comic01.precio);
+// console.log(comic01.ilustradores);
+
+comic01.addIllustrator('J.H');
 
 console.log(comic01.ilustradores);
 
+// Crear una clase SHOPPING CAR que nos ayude agregar productos a nuestra canastita de compras y que nos ayude a realizar los cálculo de lo que costaría los productos que se irían a agregar.  
 
+class ShoppingCar {
+    constructor(){
+        this.products = [];
+    }
+    addProduct (units, price) {
+        this.products.push(...Array(units).fill(price));
+    }
+    showProducts() {
+        console.log(this.products);
+    }
 
+    calcTotal() {
+        return this.products
+        .map(precio => precio)
+        .reduce ((ac,precio)=> ac+precio, 0);
+    }
+
+    ImprimirTicket() {
+        console.log(`Total por pagar ${this.calcTotal()}`)
+    }
+
+}
+
+const cart01 = new ShoppingCar();
+cart01.addProduct(4,comic01.precio);
+cart01.addProduct(3,libro01.precio);
+
+cart01.showProducts();
+cart01.calcTotal();
+cart01.ImprimirTicket();
 
 // class Book01 {
 //     title="1984";

@@ -10,7 +10,7 @@ Repositorio de ejercicios y teoría sobre Programación Orientada Objetos (OOP) 
 <ul>
     <li>Abstracción: elimina los detalles innecesarios para que solo nos enfoquemos en los aspectos que son necesarios para el contexto o sistema que estamos desarrollando. Se centra en los detalles necesarios</li>
     <li>Encapsulamiento:</li>
-    <li>Herencia:</li>
+    <li>Herencia: Por medio de la herencia una clase hija hereda de una clase "padre" sus métodos y atributos.</li>
     <li>Polimorfismo:</li>
 </ul>
 
