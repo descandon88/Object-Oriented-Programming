@@ -1,5 +1,5 @@
 # Programación Orientada a Objetos
-Repositorio de ejercicios y teoría sobre Programación Orientada Objetos (OOP) en Python
+Repositorio de anotaciones y ejercicios sobre Programación Orientada Objetos (OOP) en Python y JavaScript.
 
 # Notas
 ## Paradigma

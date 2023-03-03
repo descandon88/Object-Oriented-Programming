@@ -1,3 +1,5 @@
+// TIENDA DE LIBROS
+// EJERCICIO DE PROGRAMACION ORIENTADA A OBJETOS
 // Tienda de libros que tiene una clase principal Book con su proiedades de Titulo, autor y precios
 
 
